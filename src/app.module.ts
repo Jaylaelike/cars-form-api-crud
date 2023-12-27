@@ -11,11 +11,11 @@ import { LicenseModule } from './license/license.module';
   imports: [
     TypeOrmModule.forRoot({
       type: 'mysql',
-      host: '127.0.0.1',
-      port: 33061,
-      username: 'root',
-      password: '1234',
-      database: 'test',
+      host: '10.0.1.225',
+      port: 3306,
+      username: 'thaipbs',
+      password: 'thaipbs',
+      database: 'online_reporting',
       entities: [Carsform, License],
       synchronize: true,
     }),
