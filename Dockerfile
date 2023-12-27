@@ -16,7 +16,7 @@ COPY . .
 RUN npm run build
 
 # Expose the port that the application will run on
-EXPOSE 4000
+EXPOSE 5400
 
 # Specify the command to run on container start
 CMD ["node", "dist/main.js"]
